@@ -1,0 +1,53 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 90vw;
+    height: 60vh;
+    background-color: lightgray;
+}
+
+button {
+    padding: 1em;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    flex-flow: column nowrap;
+}
+
+.title-box {
+    height: 80vh;
+    margin: 10vh auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}

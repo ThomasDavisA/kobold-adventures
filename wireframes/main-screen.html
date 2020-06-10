@@ -9,21 +9,32 @@
 </head>
 
 <body>
-    <div class="title-box">
-        <h1>Kobold Adventures!</h1>
-        <form>
-            <div class="container">
-                <label for="username">Username</label>
-                <input type="text"></input>
+    <div class="gameplay-box">
 
-                <label for="password">Password</label>
-                <input type="text"></input>
+        <div class="news-box">
+            <h3>Current News!</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, id nemo esse sit ducimus voluptatibus quaerat. Maxime, odit dignissimos! Harum molestias vitae dolor debitis beatae vel nihil? Quos, dolorum adipisci.</p>
+        </div>
+
+        <button class='adv-button'>Go Adventuring!</button>
+        <button>Status and Equipment</button>
+        <button>Kobold Stats</button>
+        <button>Logout</button>
+
+        <div class="character-bar">
+            <canvas class="kobold-portrait"></canvas>
+            <div class="bar-box">
+                <div class="bar-container">
+                    <h3>Life:</h3>
+                <div class="bar-background"><div class="life-bar"></div></div>
+                </div>
+                <div class="bar-container">
+                <h3>Energy:</h3>
+                <div class="bar-background"><div class="energy-bar"></div></div>
+                </div>
             </div>
-            <div class="container">
-                <button>Login</button>
-                <button>Register</button>
-            </div>
-        </form>
+        </div>
     </div>
 </body>
 

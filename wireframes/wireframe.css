@@ -24,7 +24,7 @@ form {
 button {
     padding: 1em;
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
     margin: 10px 0;
 }
 
@@ -50,4 +50,141 @@ input {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
+}
+
+.character-bar {
+    position: absolute;
+    width: 100%;
+    top: 85vh;
+    background-color: lightgreen;
+    display: flex;
+}
+
+canvas {
+    margin: 0;
+    width: 15vh;
+    height: 15vh;
+    background-color: black;
+}
+
+.bar-box {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.bar-container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-background {
+    margin: 0;
+    height: 10px;
+    width: 40vw;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.progress-background {
+    width: 70vw;
+    margin: 10px auto;
+    background: repeating-linear-gradient(to right, grey, grey 32%, black 32%, black 34%);
+}
+
+.progress-complete {
+    margin: 0;
+    height: 100%;
+    width: 34%;
+    border-radius: 5px;
+    background-color: greenyellow;
+}
+
+.finished {
+    width: 100%;
+}
+
+.stat-button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.life-bar {
+    margin: 0;
+    height: 100%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.energy-bar {
+    margin: 0;
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+    background-color: yellow;
+}
+
+.logout-button {
+    padding: 5px;
+    margin: 15px 0;
+    margin-right: 10px;
+}
+
+h3 {
+    margin: 0 10px 0 0;
+    text-align: left;
+}
+
+.gameplay-box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.news-box {
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+}
+
+.button-box {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.adventure-box {
+    padding: 0 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.stats-list {
+    display: flex;
+    margin: 0;
+    height: 20vh;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.stats-list > li {
+    list-style: none;
+    
+}
+
+.action-button {
+    width: 40%;
+}
+
+p {
+    padding: 5px;
 }

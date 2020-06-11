@@ -25,7 +25,7 @@ button {
     padding: 1em;
     border-radius: 10px;
     width: 90%;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 label {
@@ -176,9 +176,8 @@ h3 {
     align-content: space-around;
 }
 
-.stats-list > li {
-    list-style: none;
-    
+li {
+    list-style: none;    
 }
 
 .action-button {
@@ -187,4 +186,66 @@ h3 {
 
 p {
     padding: 5px;
+}
+
+.equipment-container{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+}
+
+.equipment-line{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 5px auto;
+}
+
+.equip-canvas {
+    height: 40px;
+    width: 40px;
+}
+
+span {
+    margin: 0;
+}
+
+.equip-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.text-equip {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.flex-gap {
+    margin: 5px 8px;
+}
+
+.selected {
+    border: 5px solid red;
+}
+
+.common {
+    border: 3px solid grey;
+}
+
+.uncommon {
+    border: 3px solid greenyellow;
+}
+
+.rare {
+    border: 3px solid blue;
+}
+
+.epic {
+    border: 3px solid purple;
 }

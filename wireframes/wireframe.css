@@ -90,7 +90,7 @@ canvas {
 }
 
 .progress-background {
-    width: 70vw;
+    width: 90%;
     margin: 10px auto;
     background: repeating-linear-gradient(to right, grey, grey 32%, black 32%, black 34%);
 }
@@ -248,4 +248,77 @@ span {
 
 .epic {
     border: 3px solid purple;
+}
+
+.difficulty-bar {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.difficulty-button {
+    width: 90px;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.level-box {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.stats-total {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.stats-box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-total > h4 {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 425px) {
+    button {
+        width: 277px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .stats-total {
+        width: 450px;
+        
+    }
+
+    .stats-total > h4 {
+        display: inline-block;
+        margin: 10px 40px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+ .gameplay-box {
+     width: 768px;
+     min-height: fit-content;
+ }
+
+ 
+
+ .equipment-container {
+     flex-flow: column wrap;
+ }
+}
+
+a {
+    margin: 20px auto;
+    
 }
